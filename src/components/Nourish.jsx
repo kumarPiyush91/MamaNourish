@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import "./Nourish.css";
+import "./Nourish.css";
 
 const Nourish = () => {
     const [weight, setWeight] = useState("");
