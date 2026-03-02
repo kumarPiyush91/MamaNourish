@@ -1,16 +1,102 @@
-# React + Vite
+# 🌸 MamaNourish – Pregnancy Nutrient Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MamaNourish is a responsive React + Vite web application designed to help pregnant women calculate their daily recommended nutritional requirements based on BMI and pregnancy month.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 📊 BMI Calculation (Weight & Height based)
+- 🤰 Pregnancy Month Selection (1–9)
+- 🥗 Personalized Daily Nutrient Recommendations
+- 📱 Fully Responsive (Mobile, Tablet & Desktop)
+- 🔗 Conditional Recipe Recommendation Link
+- ⚡ Built with React + Vite
+- 🎨 Clean & Modern UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧮 How It Works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. User enters:
+   - Weight (kg)
+   - Height (cm)
+   - Month of pregnancy
+
+2. App calculates:
+   - BMI
+   - Body type (Underweight, Normal, Overweight, Obese)
+
+3. Based on BMI & month:
+   - Displays recommended daily nutrients
+
+---
+
+## 🛠 Tech Stack
+
+- React JS
+- Vite
+- JavaScript (ES6+)
+- CSS3 (Responsive Design)
+- Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+
+MamaNourish/
+│
+├── public/
+│ └── preg.png
+│
+├── src/
+│ ├── components/
+│ │ └── Calculator.jsx
+│ ├── data/
+│ │ └── nutrientData.js
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+│
+├── index.html
+├── package.json
+└── README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/kumarPiyush91/MamaNourish.git
+2️⃣ Navigate to project folder
+cd MamaNourish
+3️⃣ Install dependencies
+npm install
+4️⃣ Run development server
+npm run dev
+5️⃣ Build for production
+npm run build
+📱 Responsive Design
+
+The application is optimized for:
+
+Desktop
+
+Tablet
+
+Mobile (375×667 iPhone view included)
+
+
+
+👨‍💻 Author
+
+Piyush Kumar
+GitHub: https://github.com/kumarPiyush91
+
+📜 License
+
+This project is open-source and available for educational purposes.
